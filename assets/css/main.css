@@ -2549,6 +2549,10 @@ input, select, textarea {
 				letter-spacing: -0.025em;
 				border: 0;
 			}
+			#header #logo {
+				color: #BFAA68;
+				text-decoration: none;
+			}	
 
 	#nav {
 		cursor: default;
@@ -2580,7 +2584,7 @@ input, select, textarea {
 			}
 
 				#nav > ul > li a {
-					color: #c0c0c0;
+					color: #FFF5EE;
 					text-decoration: none;
 					border: 0;
 					display: block;
@@ -2592,7 +2596,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover a {
-					color: #fff;
+					color: #FFF5EE;
 				}
 
 				#nav > ul > li.current {
@@ -2753,6 +2757,24 @@ input, select, textarea {
 					color: #004225 !important;
 					transform: scale(1.2);
 				}
+		/* added by wissal to add a background image to section 2 in Acceuil index.html */
+		.wrapper.style4 {
+			background: #FFF5EE;
+			position: relative;
+			background: url('images/img4.jpeg') center center/cover no-repeat; /* Set the path to your image */
+			height: 1500px; /*auto/100vh*/
+			display: flex;
+			align-items: center;
+			justify-content: flex-start; /*Align text to the left but near the center*/
+			padding: 20px; /* Adjust padding as needed */
+		}
+			.wrapper.style4 p {
+				/* color: #ffffff; Set the text color */
+				font-size: 18px; /* Adjust the font size as needed */
+				max-width: 600px;
+				/* padding: 50px;  */
+
+			}
 
 /* CTA */
 
@@ -2775,7 +2797,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 4em 0 8em 0;
+		padding: 4em 0 3em 0;
 	}
 
 		#footer a {
@@ -2798,7 +2820,8 @@ input, select, textarea {
 		}
 
 			#footer .icons a {
-				color: #999;
+				color: #004225;
+				/*font-size: 100px;  Set the desired font size of the icons */
 			}
 
 				#footer .icons a:hover {
