@@ -3179,7 +3179,7 @@ input, select, textarea {
 
 				#navPanel .link {
 					border-bottom: 0;
-					border-top: solid 1px rgba(255, 255, 255, 0.05);
+					border-top: solid 1px #BFAA68;
 					color: #888;
 					display: block;
 					height: 48px;
@@ -3193,7 +3193,7 @@ input, select, textarea {
 					}
 
 					#navPanel .link.depth-0 {
-						color: #fff;
+						color: #FFF5EE;
 					}
 
 					#navPanel .link .indent-1 {
